@@ -7,21 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE9956F61DBEF52500589CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9956F51DBEF52500589CE5 /* AppDelegate.swift */; };
-		DE9956F81DBEF52500589CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9956F71DBEF52500589CE5 /* ViewController.swift */; };
-		DE9956FB1DBEF52500589CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9956F91DBEF52500589CE5 /* Main.storyboard */; };
-		DE9956FD1DBEF52500589CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9956FC1DBEF52500589CE5 /* Assets.xcassets */; };
-		DE9957001DBEF52500589CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9956FE1DBEF52500589CE5 /* LaunchScreen.storyboard */; };
+		3C06BAC61DEF3FD600D086B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3C06BAC51DEF3FD600D086B7 /* Podfile */; };
+		42877A016EBA0B98702F0CC0 /* libPods-Campus Tour Application.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF45406F40D0192C314B3CDB /* libPods-Campus Tour Application.a */; };
+		4724CE721DDA3DA50001310D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE691DDA3DA50001310D /* AudioToolbox.framework */; };
+		4724CE731DDA3DA50001310D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6A1DDA3DA50001310D /* CFNetwork.framework */; };
+		4724CE741DDA3DA50001310D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6B1DDA3DA50001310D /* CoreData.framework */; };
+		4724CE751DDA3DA50001310D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6C1DDA3DA50001310D /* CoreGraphics.framework */; };
+		4724CE761DDA3DA50001310D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6D1DDA3DA50001310D /* CoreLocation.framework */; };
+		4724CE771DDA3DA50001310D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6E1DDA3DA50001310D /* QuartzCore.framework */; };
+		4724CE781DDA3DA50001310D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE6F1DDA3DA50001310D /* Security.framework */; };
+		4724CE791DDA3DA50001310D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE701DDA3DA50001310D /* StoreKit.framework */; };
+		4724CE7A1DDA3DA50001310D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE711DDA3DA50001310D /* SystemConfiguration.framework */; };
+		4724CE7C1DDA3DBB0001310D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE7B1DDA3DBB0001310D /* libz.tbd */; };
+		4724CE7E1DDA3DCA0001310D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE7D1DDA3DCA0001310D /* libsqlite3.tbd */; };
+		4724CE811DDA3E850001310D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE7F1DDA3E850001310D /* Bolts.framework */; };
+		4724CE821DDA3E850001310D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724CE801DDA3E850001310D /* Parse.framework */; };
+		475BE71D1DD8FD74006468B9 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BE71C1DD8FD74006468B9 /* SchoolTableViewController.swift */; };
+		475BE7251DD91159006468B9 /* ProfeesorByDepartmetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BE7241DD91159006468B9 /* ProfeesorByDepartmetTableViewController.swift */; };
+		4788E01A1DD2B74B00B7DC63 /* BuildingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788E0191DD2B74B00B7DC63 /* BuildingsViewController.swift */; };
+		DE953BF51DDAA7F600448B23 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE953BF41DDAA7F600448B23 /* CustomPointAnnotation.swift */; };
+		DE953BF71DDAADEA00448B23 /* DetailsofBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE953BF61DDAADEA00448B23 /* DetailsofBuildingViewController.swift */; };
+		DE953BF91DDAB2E700448B23 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE953BF81DDAB2E700448B23 /* Building.swift */; };
+		DE99572E1DBEF7E600589CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957211DBEF7E600589CE5 /* AppDelegate.swift */; };
+		DE99572F1DBEF7E600589CE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957221DBEF7E600589CE5 /* MapViewController.swift */; };
+		DE9957311DBEF7E600589CE5 /* FacultyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957241DBEF7E600589CE5 /* FacultyTableViewController.swift */; };
+		DE9957321DBEF7E600589CE5 /* ListFacultyWithBuildingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957251DBEF7E600589CE5 /* ListFacultyWithBuildingsTableViewController.swift */; };
+		DE9957331DBEF7E600589CE5 /* ProfessorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957261DBEF7E600589CE5 /* ProfessorInfoViewController.swift */; };
+		DE9957341DBEF7E600589CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9957271DBEF7E600589CE5 /* Main.storyboard */; };
+		DE9957351DBEF7E600589CE5 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9957281DBEF7E600589CE5 /* Professor.swift */; };
+		DE9957371DBEF7E600589CE5 /* ProfessorsInbuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99572A1DBEF7E600589CE5 /* ProfessorsInbuilding.swift */; };
+		DE9957391DBEF7E600589CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE99572C1DBEF7E600589CE5 /* LaunchScreen.storyboard */; };
+		DE99573A1DBEF7E600589CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE99572D1DBEF7E600589CE5 /* Info.plist */; };
+		DEDA7C531DC172EB00E2E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */; };
+		E5CFD9D71DBF2FB6002E7B44 /* SecRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFD9D61DBF2FB6002E7B44 /* SecRows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BE9DE48A4CA6B631FEAE53A /* Pods-Campus Tour Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus Tour Application.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus Tour Application/Pods-Campus Tour Application.release.xcconfig"; sourceTree = "<group>"; };
+		3C06BAC51DEF3FD600D086B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4724CE691DDA3DA50001310D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4724CE6A1DDA3DA50001310D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4724CE6B1DDA3DA50001310D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4724CE6C1DDA3DA50001310D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4724CE6D1DDA3DA50001310D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4724CE6E1DDA3DA50001310D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4724CE6F1DDA3DA50001310D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4724CE701DDA3DA50001310D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4724CE711DDA3DA50001310D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4724CE7B1DDA3DBB0001310D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4724CE7D1DDA3DCA0001310D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4724CE7F1DDA3E850001310D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4724CE801DDA3E850001310D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		475BE71C1DD8FD74006468B9 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
+		475BE7241DD91159006468B9 /* ProfeesorByDepartmetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfeesorByDepartmetTableViewController.swift; sourceTree = "<group>"; };
+		4788E0191DD2B74B00B7DC63 /* BuildingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingsViewController.swift; sourceTree = "<group>"; };
+		CCACA69CF3C278B7B21E2F16 /* Pods-Campus Tour Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus Tour Application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus Tour Application/Pods-Campus Tour Application.debug.xcconfig"; sourceTree = "<group>"; };
+		CF45406F40D0192C314B3CDB /* libPods-Campus Tour Application.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus Tour Application.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE953BF41DDAA7F600448B23 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		DE953BF61DDAADEA00448B23 /* DetailsofBuildingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsofBuildingViewController.swift; sourceTree = "<group>"; };
+		DE953BF81DDAB2E700448B23 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 		DE9956F21DBEF52500589CE5 /* Campus Tour Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Tour Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9956F51DBEF52500589CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE9956F71DBEF52500589CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE9956FA1DBEF52500589CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE9956FC1DBEF52500589CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE9956FF1DBEF52500589CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE9957011DBEF52500589CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9957211DBEF7E600589CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE9957221DBEF7E600589CE5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DE9957241DBEF7E600589CE5 /* FacultyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyTableViewController.swift; sourceTree = "<group>"; };
+		DE9957251DBEF7E600589CE5 /* ListFacultyWithBuildingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFacultyWithBuildingsTableViewController.swift; sourceTree = "<group>"; };
+		DE9957261DBEF7E600589CE5 /* ProfessorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessorInfoViewController.swift; sourceTree = "<group>"; };
+		DE9957271DBEF7E600589CE5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DE9957281DBEF7E600589CE5 /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		DE99572A1DBEF7E600589CE5 /* ProfessorsInbuilding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessorsInbuilding.swift; sourceTree = "<group>"; };
+		DE99572C1DBEF7E600589CE5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE99572D1DBEF7E600589CE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5CFD9D61DBF2FB6002E7B44 /* SecRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecRows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +86,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4724CE7E1DDA3DCA0001310D /* libsqlite3.tbd in Frameworks */,
+				4724CE7C1DDA3DBB0001310D /* libz.tbd in Frameworks */,
+				4724CE721DDA3DA50001310D /* AudioToolbox.framework in Frameworks */,
+				4724CE811DDA3E850001310D /* Bolts.framework in Frameworks */,
+				4724CE731DDA3DA50001310D /* CFNetwork.framework in Frameworks */,
+				4724CE741DDA3DA50001310D /* CoreData.framework in Frameworks */,
+				4724CE821DDA3E850001310D /* Parse.framework in Frameworks */,
+				4724CE751DDA3DA50001310D /* CoreGraphics.framework in Frameworks */,
+				4724CE761DDA3DA50001310D /* CoreLocation.framework in Frameworks */,
+				4724CE771DDA3DA50001310D /* QuartzCore.framework in Frameworks */,
+				4724CE781DDA3DA50001310D /* Security.framework in Frameworks */,
+				4724CE791DDA3DA50001310D /* StoreKit.framework in Frameworks */,
+				4724CE7A1DDA3DA50001310D /* SystemConfiguration.framework in Frameworks */,
+				42877A016EBA0B98702F0CC0 /* libPods-Campus Tour Application.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62FE96002112AC63FDD95BC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCACA69CF3C278B7B21E2F16 /* Pods-Campus Tour Application.debug.xcconfig */,
+				3BE9DE48A4CA6B631FEAE53A /* Pods-Campus Tour Application.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBA2BADBD28A3E01925DC42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF45406F40D0192C314B3CDB /* libPods-Campus Tour Application.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE953BF11DDAA5B600448B23 /* frame work */ = {
+			isa = PBXGroup;
+			children = (
+				4724CE7D1DDA3DCA0001310D /* libsqlite3.tbd */,
+				4724CE7B1DDA3DBB0001310D /* libz.tbd */,
+				4724CE691DDA3DA50001310D /* AudioToolbox.framework */,
+				4724CE6A1DDA3DA50001310D /* CFNetwork.framework */,
+				4724CE6B1DDA3DA50001310D /* CoreData.framework */,
+				4724CE6C1DDA3DA50001310D /* CoreGraphics.framework */,
+				4724CE6D1DDA3DA50001310D /* CoreLocation.framework */,
+				4724CE6E1DDA3DA50001310D /* QuartzCore.framework */,
+				4724CE6F1DDA3DA50001310D /* Security.framework */,
+				4724CE701DDA3DA50001310D /* StoreKit.framework */,
+				4724CE711DDA3DA50001310D /* SystemConfiguration.framework */,
+				4724CE801DDA3E850001310D /* Parse.framework */,
+				4724CE7F1DDA3E850001310D /* Bolts.framework */,
+			);
+			name = "frame work";
+			sourceTree = "<group>";
+		};
 		DE9956E91DBEF52500589CE5 = {
 			isa = PBXGroup;
 			children = (
+				3C06BAC51DEF3FD600D086B7 /* Podfile */,
+				DE953BF11DDAA5B600448B23 /* frame work */,
 				DE9956F41DBEF52500589CE5 /* Campus Tour Application */,
 				DE9956F31DBEF52500589CE5 /* Products */,
+				62FE96002112AC63FDD95BC7 /* Pods */,
+				BBA2BADBD28A3E01925DC42C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +166,24 @@
 		DE9956F41DBEF52500589CE5 /* Campus Tour Application */ = {
 			isa = PBXGroup;
 			children = (
-				DE9956F51DBEF52500589CE5 /* AppDelegate.swift */,
-				DE9956F71DBEF52500589CE5 /* ViewController.swift */,
-				DE9956F91DBEF52500589CE5 /* Main.storyboard */,
-				DE9956FC1DBEF52500589CE5 /* Assets.xcassets */,
-				DE9956FE1DBEF52500589CE5 /* LaunchScreen.storyboard */,
-				DE9957011DBEF52500589CE5 /* Info.plist */,
+				DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */,
+				DE9957211DBEF7E600589CE5 /* AppDelegate.swift */,
+				DE9957221DBEF7E600589CE5 /* MapViewController.swift */,
+				DE953BF61DDAADEA00448B23 /* DetailsofBuildingViewController.swift */,
+				DE9957241DBEF7E600589CE5 /* FacultyTableViewController.swift */,
+				DE9957251DBEF7E600589CE5 /* ListFacultyWithBuildingsTableViewController.swift */,
+				DE9957261DBEF7E600589CE5 /* ProfessorInfoViewController.swift */,
+				DE9957271DBEF7E600589CE5 /* Main.storyboard */,
+				DE953BF81DDAB2E700448B23 /* Building.swift */,
+				DE953BF41DDAA7F600448B23 /* CustomPointAnnotation.swift */,
+				DE9957281DBEF7E600589CE5 /* Professor.swift */,
+				DE99572A1DBEF7E600589CE5 /* ProfessorsInbuilding.swift */,
+				DE99572C1DBEF7E600589CE5 /* LaunchScreen.storyboard */,
+				DE99572D1DBEF7E600589CE5 /* Info.plist */,
+				E5CFD9D61DBF2FB6002E7B44 /* SecRows.swift */,
+				4788E0191DD2B74B00B7DC63 /* BuildingsViewController.swift */,
+				475BE71C1DD8FD74006468B9 /* SchoolTableViewController.swift */,
+				475BE7241DD91159006468B9 /* ProfeesorByDepartmetTableViewController.swift */,
 			);
 			path = "Campus Tour Application";
 			sourceTree = "<group>";
@@ -71,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE9957041DBEF52500589CE5 /* Build configuration list for PBXNativeTarget "Campus Tour Application" */;
 			buildPhases = (
+				9D10254D2B2E0666C5B0A9A8 /* [CP] Check Pods Manifest.lock */,
 				DE9956EE1DBEF52500589CE5 /* Sources */,
 				DE9956EF1DBEF52500589CE5 /* Frameworks */,
 				DE9956F01DBEF52500589CE5 /* Resources */,
+				35378D28EEDC1341F436D1DD /* [CP] Embed Pods Frameworks */,
+				07C22A87705972F355C4D957 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +223,7 @@
 				TargetAttributes = {
 					DE9956F11DBEF52500589CE5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XR7MQRJRU7;
 					};
 				};
 			};
@@ -122,44 +250,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9957001DBEF52500589CE5 /* LaunchScreen.storyboard in Resources */,
-				DE9956FD1DBEF52500589CE5 /* Assets.xcassets in Resources */,
-				DE9956FB1DBEF52500589CE5 /* Main.storyboard in Resources */,
+				3C06BAC61DEF3FD600D086B7 /* Podfile in Resources */,
+				DE99573A1DBEF7E600589CE5 /* Info.plist in Resources */,
+				DE9957391DBEF7E600589CE5 /* LaunchScreen.storyboard in Resources */,
+				DEDA7C531DC172EB00E2E0EA /* Assets.xcassets in Resources */,
+				DE9957341DBEF7E600589CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C22A87705972F355C4D957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus Tour Application/Pods-Campus Tour Application-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35378D28EEDC1341F436D1DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus Tour Application/Pods-Campus Tour Application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D10254D2B2E0666C5B0A9A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE9956EE1DBEF52500589CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9956F81DBEF52500589CE5 /* ViewController.swift in Sources */,
-				DE9956F61DBEF52500589CE5 /* AppDelegate.swift in Sources */,
+				DE9957351DBEF7E600589CE5 /* Professor.swift in Sources */,
+				475BE7251DD91159006468B9 /* ProfeesorByDepartmetTableViewController.swift in Sources */,
+				DE9957321DBEF7E600589CE5 /* ListFacultyWithBuildingsTableViewController.swift in Sources */,
+				DE9957311DBEF7E600589CE5 /* FacultyTableViewController.swift in Sources */,
+				DE9957331DBEF7E600589CE5 /* ProfessorInfoViewController.swift in Sources */,
+				DE99572E1DBEF7E600589CE5 /* AppDelegate.swift in Sources */,
+				DE9957371DBEF7E600589CE5 /* ProfessorsInbuilding.swift in Sources */,
+				DE99572F1DBEF7E600589CE5 /* MapViewController.swift in Sources */,
+				DE953BF71DDAADEA00448B23 /* DetailsofBuildingViewController.swift in Sources */,
+				475BE71D1DD8FD74006468B9 /* SchoolTableViewController.swift in Sources */,
+				4788E01A1DD2B74B00B7DC63 /* BuildingsViewController.swift in Sources */,
+				DE953BF51DDAA7F600448B23 /* CustomPointAnnotation.swift in Sources */,
+				E5CFD9D71DBF2FB6002E7B44 /* SecRows.swift in Sources */,
+				DE953BF91DDAB2E700448B23 /* Building.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DE9956F91DBEF52500589CE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9956FA1DBEF52500589CE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE9956FE1DBEF52500589CE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9956FF1DBEF52500589CE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE9957021DBEF52500589CE5 /* Debug */ = {
@@ -249,23 +420,42 @@
 		};
 		DE9957051DBEF52500589CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCACA69CF3C278B7B21E2F16 /* Pods-Campus Tour Application.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Campus Tour Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Campus-Tour-Application";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DE9957061DBEF52500589CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE9DE48A4CA6B631FEAE53A /* Pods-Campus Tour Application.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Campus Tour Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Campus-Tour-Application";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +478,7 @@
 				DE9957061DBEF52500589CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
