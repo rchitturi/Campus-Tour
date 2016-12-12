@@ -38,13 +38,14 @@
 		DE9957371DBEF7E600589CE5 /* ProfessorsInbuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99572A1DBEF7E600589CE5 /* ProfessorsInbuilding.swift */; };
 		DE9957391DBEF7E600589CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE99572C1DBEF7E600589CE5 /* LaunchScreen.storyboard */; };
 		DE99573A1DBEF7E600589CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE99572D1DBEF7E600589CE5 /* Info.plist */; };
-		DEDA7C531DC172EB00E2E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */; };
+		DECC5A571DF25E9200EC36A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */; };
+		E56C12B41DFBA78D0061B78D /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = E56C12B31DFBA78D0061B78D /* images.png */; };
 		E5CFD9D71DBF2FB6002E7B44 /* SecRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFD9D61DBF2FB6002E7B44 /* SecRows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BE9DE48A4CA6B631FEAE53A /* Pods-Campus Tour Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus Tour Application.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus Tour Application/Pods-Campus Tour Application.release.xcconfig"; sourceTree = "<group>"; };
-		3C06BAC51DEF3FD600D086B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3C06BAC51DEF3FD600D086B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4724CE691DDA3DA50001310D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4724CE6A1DDA3DA50001310D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4724CE6B1DDA3DA50001310D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -78,6 +79,7 @@
 		DE99572C1DBEF7E600589CE5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE99572D1DBEF7E600589CE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E56C12B31DFBA78D0061B78D /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		E5CFD9D61DBF2FB6002E7B44 /* SecRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecRows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				DEDA7C521DC172EB00E2E0EA /* Assets.xcassets */,
+				E56C12B31DFBA78D0061B78D /* images.png */,
 				DE9957211DBEF7E600589CE5 /* AppDelegate.swift */,
 				DE9957221DBEF7E600589CE5 /* MapViewController.swift */,
 				DE953BF61DDAADEA00448B23 /* DetailsofBuildingViewController.swift */,
@@ -253,8 +256,9 @@
 				3C06BAC61DEF3FD600D086B7 /* Podfile in Resources */,
 				DE99573A1DBEF7E600589CE5 /* Info.plist in Resources */,
 				DE9957391DBEF7E600589CE5 /* LaunchScreen.storyboard in Resources */,
-				DEDA7C531DC172EB00E2E0EA /* Assets.xcassets in Resources */,
+				E56C12B41DFBA78D0061B78D /* images.png in Resources */,
 				DE9957341DBEF7E600589CE5 /* Main.storyboard in Resources */,
+				DECC5A571DF25E9200EC36A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

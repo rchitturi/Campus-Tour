@@ -13,6 +13,7 @@ class Building{
     var image:String
     var description:String
     
+    //this is an initalizer
     init(name:String,image:String,description:String){
         self.name = name
         self.description = description

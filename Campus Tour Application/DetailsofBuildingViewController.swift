@@ -16,6 +16,7 @@ class DetailsofBuildingViewController: UIViewController {
     
     var input: String = ""
     
+    //this function dismiss this view controller when this button is clicked
     @IBAction func dismiss(sender: AnyObject) {
         
         self.navigationController?.popViewControllerAnimated(true)
@@ -24,10 +25,8 @@ class DetailsofBuildingViewController: UIViewController {
     
     var buildings:[Building] = []
     
+    //this function initializes all the data for certain building and saves them in an array
     func populate(){
-        
-        
-        
         
         let ColdenHall = Building(name: "Colden Hall", image: "coldenHall.png", description: "Purpose: OfficeClassroom \nTotal S Ft 78,145 \nYear Built: 1957")
         buildings.append(ColdenHall)
@@ -46,12 +45,9 @@ class DetailsofBuildingViewController: UIViewController {
         buildings.append(ValkCenter)
         let RonHouston = Building(name: "Ron Houston Center", image: "ronHouston.png", description: "Purpose: Office/Classroom/General Use\nTotal Sq. Ft.: 45,394\nYear Built: 1981")
         buildings.append(RonHouston)
-        
-        
-        
     }
     
-    
+    //this function invokes when this view controller appears and invokes the populate function
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -64,17 +60,11 @@ class DetailsofBuildingViewController: UIViewController {
                 buildingImage.image = UIImage(named: "\(building.image)")
             }
         }
-        
-        
     }
     
-    
-    
+    //this function checks whether there are any warnings
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
     
 }

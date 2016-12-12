@@ -9,7 +9,7 @@
 import UIKit
 import Parse
 import Bolts
-
+//Professor class for parsing
 class Professor:PFObject,PFSubclassing {
     @NSManaged var firstName:String
     @NSManaged var middleName:String
@@ -20,6 +20,7 @@ class Professor:PFObject,PFSubclassing {
     @NSManaged var specalization:String
     @NSManaged var office:String
     @NSManaged var building:String
+    @NSManaged var image:PFFile
     
     static func parseClassName() -> String {
         return "Professor"

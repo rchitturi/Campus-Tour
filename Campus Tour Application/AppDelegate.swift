@@ -23,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor.purpleColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        UITabBar.appearance().backgroundColor = UIColor.purpleColor()
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         let configuration = ParseClientConfiguration {
             $0.applicationId = "0xQYct8MDS4ggjhVB2jiueCkZn07Rs0hBfMC9BAz"
             $0.clientKey = "wkJt5JEt6NjMnr6fnMXmv5x5OXg71h3ZdbIplADa"
